@@ -113,11 +113,19 @@ leckerdeal.de/restaurant_name
 ### **Product Details Page**
 ![Product Details](screenshots/product-details.png)
 
+<<<<<<< HEAD
 ### **Review in Product Details**
 ![Review in Product Details](screenshots/userReview.png)
 
 ### **PQ&A in Product Detail**
 ![Q&A in Product Details](screenshots/qa.png)
+=======
+### **User Review in Product Details Page**
+![Product Details](screenshots/userReview.png)
+
+### **Q&A in Product Details Page**
+![Product Details](screenshots/qa.png)
+>>>>>>> 79cf657 (Backup before deleting main)
 
 ---
 
@@ -143,3 +151,7 @@ leckerdeal.de/restaurant_name
 📧 **mahan@javaheri.work**  
 
 © 2025 **Mahan Javaheri** – All Rights Reserved.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 79cf657 (Backup before deleting main)
