@@ -1,0 +1,11 @@
+.c-product_info-li
+{
+    list-style: circle;
+    padding-left: 3px;
+    margin-left: 30px;
+    line-height: 2;
+}
+.c-product_info ul
+{
+   padding-top: 20px;
+}

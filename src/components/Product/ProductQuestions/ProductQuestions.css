@@ -1,0 +1,493 @@
+.qa-section
+{
+    padding: 40px;
+}
+.qa-section-title
+{
+    padding-bottom: 30px;
+}
+
+.c-form_faq-row
+{
+    margin-top: 15px;
+    display: flex;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.c-form_faq-col
+{
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+.c-form_faq .c-textarea
+{
+    height: 180px;
+    resize: vertical;
+    border-color: #c8c8c8;
+    width: 100%;
+}
+.c-form_faq-col_submit
+{
+    flex-basis: 20%;
+    max-width: 20%;
+    flex-shrink: 0;
+}
+.c-form_faq .btn-primary
+{
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    height: unset;
+    line-height: 1.294;
+    padding: 17px 31px;
+    letter-spacing: normal;
+}
+.c-form_faq-col_agreement
+{
+    font-size: 13px;
+    line-height: 2.31;
+    color: #6f6f6f;
+    left: 30px;
+    padding-top: 30px;
+}
+.c-form_faq-col_agreement .c-checkbox
+{
+    position: absolute;
+    left: -18px;
+    bottom: 5px;
+}
+
+
+.c-checkbox
+{
+    width: 22px;
+    height: 22px;
+    position: relative;
+    display: inline-block;
+}
+.c-checkbox input[type="checkbox"]
+{
+    visibility: hidden;
+    position: absolute;
+}
+.c-checkbox_check
+{
+    border: 1px solid #d8d8d8;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.c-checkbox_check::before
+{
+    font-family: iconfont;
+    content: "\e029";
+    position: absolute;
+    top: 6px;
+    line-height: 1;
+    color: #fff;
+    left: 3px;
+    font-size: 10px;
+}
+.c-checkbox input[type="checkbox"]:checked + .c-checkbox_check
+{
+    background-color: #471871;
+    border-color: #471871;
+}
+
+
+.c-link_underline
+{
+    color: #471871;
+    white-space: nowrap;
+    position: relative;
+    cursor: pointer;
+    line-height: 2;
+}
+.c-link_underline::after
+{
+    position: absolute;
+    content: "";
+    border-bottom: 1px dashed #471871;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.c-faq_answerlink
+{
+    margin-left: 20px;
+}
+
+
+.c-tabs_content-comments_filter
+{
+    position: relative;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    margin-top: 60px;
+}
+.c-faq_filter-title
+{
+    font-size: 16px;
+    padding: 14px 19px;
+}
+
+.c-faq_filter-items
+{
+    position: absolute;
+    right: 0;
+    margin-right: auto;
+    font-size: 16px;
+}
+.c-faq_filter-items[data-title]::before
+{
+    content: attr(data-title);
+    padding: 14px 10px;
+}
+.c-faq_filter-items li
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+.c-faq_filter-items a
+{
+    padding: 14px 17px;
+    display: block;
+    color: #4e4e4e;
+    position: relative;
+}
+.c-faq_filter-items a.is-active
+{
+    color: #471871;
+}
+.c-faq_filter-items a.is-active::before
+{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #471871;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+.c-faq_list
+{
+    margin-top: 40px;
+}
+.c-faq_list > li
+{
+    border: 1px solid #dbdbdb;
+    background: #fcfcfc;
+    margin-left: 171px;
+    padding: 19px 29px 50px;
+    color: #4d4d4d;
+    min-height: 220px;
+    position: relative;
+}
+.c-faq_list > li:first-child
+{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.c-faq_list > li:last-child
+{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.c-faq_list > li + li
+{
+    background-color: #fff;
+    border-top: none;
+}
+.c-faq_list > li::before,.c-faq_list > li::after {
+    position: absolute;
+    content: "";
+    border-style: solid;
+    border-width: 11px 11px 11px 0; 
+    border-color: transparent #dbdbdb transparent transparent; 
+    left: -13px; 
+    top: 49px;
+}
+
+.c-faq_list > li::after {
+    border-width: 10px 10px 10px 0; 
+    border-color: transparent #fcfcfc transparent transparent; 
+    top: 51px;
+    left: -10px; 
+}
+
+.c-faq_header
+{
+    position: absolute;
+    left: -163px;
+    top: 35px;
+    text-align: center;
+    width: 122px;
+    font-size: 62px;
+ 
+    color: #56941e;
+    padding-top: 69px;
+    margin-right: 44px;
+}
+.c-faq_header::before
+{
+    font-family: iconfont;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    line-height: 1;
+}
+.c-faq_header-question::before
+{
+    content: "\e095";
+}
+.c-faq_header-answer
+{
+    font-size: 79px;
+    padding-top: 86px;
+    color: #ffd188;
+}
+.c-faq_header-answer::before
+{
+    content: "\e05f";
+}
+.c-faq_header p
+{
+    font-size: 26px;
+    color: #7a7a7a;
+    line-height: 1.692;
+    text-align: center;
+}
+.c-faq_header p span
+{
+    display: block;
+    font-size: 12px;
+    line-height: 1.833;
+    color: #959595;
+}
+
+.c-faq_content
+{
+    font-size: 15px;
+    line-height: 2.4;
+}
+
+.c-faq_footer
+{
+    position: absolute;
+    display: flex;
+    bottom: 25px;
+    width: 100%;
+    left: 0;
+    padding: 0 29px;
+}
+.c-faq_footer-content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.c-faq_footer-date
+{
+    position: absolute;
+    right: 0;
+}
+.c-faq_footer-date > span
+{
+    color: #d3d3d3;
+    font-size: 13px;
+    line-height: 2.2;
+}
+.c-faq_footer > a
+{
+    right: 0;
+}
+
+.c-comment_likes
+{
+    color: #777;
+    font-size: 13px;
+}
+.c-comment_likes > span
+{
+    padding-right: 20px;
+}
+.btn-like
+{
+    background: #fff;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+    margin-right: 15px;
+    line-height: 1.692;
+    padding: 2px 23px 2px 13px;
+    color: #8c8c8c;
+    cursor: pointer;
+    width: 100px;
+}
+.btn-like + .btn-dislike
+{
+    margin-right: 22px;
+    width: 100px;
+}
+.btn-like[data-counter]::before
+{
+    content: attr(data-counter);
+    margin-left: 7px;
+    color: #7a7a7a;
+    font-size: 15px;
+}
+
+.btn-like.active {
+    background-color: #56941e !important;
+    border-color: #56941e !important;
+    color: white !important;
+  }
+  
+  .btn-like.btn-dislike.active {
+    background-color: #f44336 !important;
+    border-color: #f44336 !important;
+    color: white !important;
+  }
+
+
+  .faq_answer-row
+{
+    display: flex;
+}
+.faq_answer-col_form
+{
+    flex-basis: 54%;
+    max-width: 54%;
+    padding-right: 26px;
+    padding-left: 33px;
+}
+.faq_answer-col_form > span
+{
+    margin-bottom: 35px;
+    padding-top: 13px;
+    display: block;
+    font-size: 21px;
+    color: #7a7a7a;
+    letter-spacing: -.8px;
+}
+.c-faq_form-answer_row
+{
+    margin-top: 15px;
+    margin-right: -10px;
+    margin-left: -10px;
+    display: flex;
+}
+.c-faq_form-answer_col
+{
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+.c-faq_form-answer .c-textarea
+{
+    resize: vertical;
+    height: 267px;
+}
+.c-faq_form-answer_col-submit
+{
+    flex-basis: 36%;
+    max-width: 36%;
+}
+.c-faq_answer-btn
+{
+    background-color: #471871;
+    border: 1px solid #471871;
+    width: 100%;
+    padding: 14px 31px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 8px;
+}
+.c-faq_form-answer_col-agreement
+{
+    flex-basis: 59%;
+    max-width: 59%;
+    font-size: 13px;
+    color: #6f6f6f;
+    font-weight: 700;
+    letter-spacing: -.5px;
+}
+.c-faq_form-answer_col-agreement p
+{
+    margin-top: 6px;
+}
+
+.c-faq_form-answer_col textarea
+{
+    width: 100%;
+}
+
+.faq_answer-col_rules
+{
+    flex-basis: 46%;
+    max-width: 46%;
+    border-right: 1px solid #f0f0f0;
+    padding-left: 63px;
+    padding-top: 18px;
+}
+.c-faq_rules-headline
+{
+    padding-right: 37px;
+    margin-bottom: 25px;
+    position: relative;
+    display: block;
+    font-weight: 700;
+    font-size: 17px;
+    color: #7a7a7a;
+    letter-spacing: -.7px;
+}
+.c-faq_rules-headline::before
+{
+    font-family: iconfont;
+    content: "\e0d2";
+    position: absolute;
+    left: -30px;
+    top: -5px;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 400;
+}
+.c-faq_rules-list li
+{
+    margin: 15px 0 0;
+    padding-right: 33px;
+    position: relative;
+}
+.c-faq_rules-list li::before
+{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #e2e2e2;
+    border-radius: 50%;
+    left: -30px;
+    top: 7px;
+}
+.c-faq_rules-list li span
+{
+    font-weight: 600;
+    color: #7a7a7a;
+    letter-spacing: -.5px;
+}
+.c-faq_rules-list li p
+{
+    margin-top: 10px;
+    color: #959595;
+    letter-spacing: -.7px;
+}

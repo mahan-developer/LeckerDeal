@@ -1,0 +1,24 @@
+.c-sliders_right
+{
+    width: 100%;
+    height: 100%;
+}
+.c-sliders_right-singleimg
+{
+    height: 100%;
+    width: 272px;
+}
+.c-sliders_right-singleimg a
+{    
+    display: inline-block;
+    height: 100%;    
+    margin: 0 0 0 5px;
+}
+
+.c-sliders_right-singleimg img
+{
+    border-radius: 20px;
+    width: 100%;
+    height: 332px;
+    object-fit: fill;
+}

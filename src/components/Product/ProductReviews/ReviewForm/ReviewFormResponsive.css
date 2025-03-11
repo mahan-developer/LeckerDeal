@@ -1,0 +1,38 @@
+
+@media (max-width: 1200px) 
+{
+    .c-comment_add-row
+    {
+        flex-direction: column-reverse;
+    }
+    .c-comment_add-col_form
+    {
+        flex-basis: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .c-comment_add-col_content
+    {
+        font-size: 12px;
+        max-width: 100%;
+        flex-basis: 100%;
+        padding: 20px 10px;
+    }
+
+    .c-comment_product-box
+    {
+        margin-top: 0px;
+    }
+    .c-comment_add-col_content p::before {
+        width: 6px;
+        height: 6px;
+        margin-top: 10px;
+        left: 22px;
+        line-height: 1.4;
+    }
+    .c-form_comment-row-btn
+    {
+        flex-direction: column;
+    }
+    
+}

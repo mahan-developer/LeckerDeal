@@ -1,0 +1,9 @@
+@media (max-width: 1200px) 
+{
+    .c-gallery_items li
+    {
+        flex-basis: 33%;
+        max-width: 33%;
+
+    }
+}

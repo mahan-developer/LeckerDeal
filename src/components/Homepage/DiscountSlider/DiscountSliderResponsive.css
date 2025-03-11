@@ -1,0 +1,114 @@
+
+
+
+@media (max-width: 1200px) {
+    .c-discount_box
+    {
+        overflow-y: hidden;
+        height: 90%;
+        order: 1;
+    }
+    .c-discount_aside-a
+    {
+        justify-content: center;
+    }
+    .c-discount_aside-a::before
+    {
+        display: none;
+    }
+    .c-discount_aside
+    {
+        white-space: nowrap;
+        width: 100%;
+        order: 2;
+        position: relative;
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        pointer-events: auto;
+        margin: 0;
+    }
+
+    .c-discount_aside-ul
+    {
+        display: flex;
+        flex-direction: row; 
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 10px; 
+        width: max-content;
+    }
+
+    .c-discount_aside-li
+    {
+        flex: 0 0 auto; 
+        width: 140px; 
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }    
+
+    .c-discount_aside-button 
+    {
+        display: none;
+    }
+
+    .c-discount {
+        flex-direction: column; 
+        height: 100%;
+    }
+
+    .c-discount_image
+    {
+        height: 300px;
+        width: 100%;
+    }
+
+    .c-discount_content
+    {
+        flex-direction: column;
+        justify-content: unset;
+        width: 100%;
+    }
+    .c-sliders_discount
+    {
+        height: 790px;
+    }
+  
+    .c-discount_prop
+    {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .c-discount_product
+    {
+        padding: 0;
+    }
+    .c-discount_image img
+    {
+        height: 250px;
+        width: 250px;        
+    }
+    .c-discount_container
+    {
+        padding: 70px 10px 40px 10px;
+    }
+    .c-discount_image-topbar
+    {
+        width: 160px;
+    }
+    .c-discount_image-topbar::before
+    {
+        width: 140px;
+        height: 35px;
+        background-size:auto 15px;
+    }
+}
+

@@ -1,0 +1,216 @@
+.c-swiper
+{
+    width: 100%;
+    background-color: #fff;
+    padding: 9px 33px 11px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    height: 100%;
+    margin: 20px 0 0;
+}
+.c-swiper_headline
+{
+    margin: 0 0 6px 33px;  
+    display: flex;
+    position: relative;
+}
+.c-swiper_headline::after
+{
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #dfdfdf;
+    right: 0;
+    left: 0;
+    bottom: 0;    
+}
+.c-swiper_headline span
+{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 0;
+    min-height: 48px;
+    line-height: 31px;
+    position: relative;
+}
+.c-swiper_headline span::before
+{
+    content: "";
+    position: absolute;
+    background-color: #ef5661;
+    height: 1px;
+    right: -40px;
+    left: -40px;
+    bottom: 0;
+    z-index: 1;
+}
+.c-swiper_headline span::after
+{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 1px;
+    width: 15px;
+    bottom: 0;
+    left: -45px;
+    z-index: 1;
+}
+.c-swiper_content
+{
+    position: relative;
+}
+.c-swiper_container
+{
+    overflow: hidden;
+    padding-top: 3px;
+}
+.c-swiper_box
+{
+    display: flex;
+    padding: 2px 0;
+    transition: transform .4s ease-in-out;
+}
+.c-swiper_slide
+{
+    width: 250px;
+    flex-shrink: 0;
+}
+.c-swiper_slide:hover
+{
+    transform: translateY(-2px);
+    transition: all .2s ease-in-out;
+}
+.c-swiper_url
+{
+    padding: 5px 15px 60px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+    align-items: center;
+    position: relative;
+}
+.c-swiper_url:hover
+{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+}
+.c-swiper_url:hover::after
+{
+    position: absolute;
+    content: "";
+    height: 2px;
+    bottom: -2px;
+    right: 0;
+    left: 0;
+}
+.c-swiper_img
+{
+    width: 210px;
+    height: 210px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+.c-swiper_img img
+{
+    max-height: 100%;
+    max-width: 100%;
+}
+.c-swiper_img img[alt]::after
+{
+    position: absolute;
+    content: attr(alt);
+    background: #fff url(../../../assets/images/Global/icon.png) no-repeat 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: contain;
+    text-align: center;
+    color:transparent;
+}
+.c-swiper_title
+{
+    margin-top: 14px;
+    font-size: 12px;
+    width: 90%;
+    text-align: center;
+    line-height: 25px;
+}
+.c-swiper_price
+{
+    bottom: 10px;
+    position: absolute;
+    width: 90%;
+    display: flex;
+    justify-content: center;    
+}
+.c-swiper_price-value
+{
+    color: #fb3449;
+    font-size: 20px;
+    line-height: 22px;
+}
+.c-swiper_price-value span
+{
+    font-size: 14px;
+}
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 30px; /* اندازه فلش */
+    color: #000; /* رنگ فلش */
+}
+  
+  
+
+/* تغییر رنگ در حالت هاور */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    width: 50px;
+    height: 50px;
+    color: #471871;
+}
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+  font-size: 36px; /* اندازه فلش در حالت هاور */
+  color: #471871; /* رنگ فلش در هاور */
+}
+
+/* دکمه‌های غیرفعال */
+.swiper-button-disabled {
+  color: gray;
+  opacity: 0.5;
+  pointer-events: none; /* جلوگیری از کلیک */
+}
+.swiper-button-disabled::after
+{
+    color: gray;
+}
+
+/* جلوگیری از انتقال کلیک با لایه نامرئی */
+.swiper-button-next.swiper-button-disabled::before,
+.swiper-button-prev.swiper-button-disabled::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: all; /* جلوگیری از کلیک روی عناصر زیر */
+}

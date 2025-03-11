@@ -1,0 +1,40 @@
+@media (max-width: 768px)
+{
+    .c-footer_feature
+    {
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+    .c-footer_feature-item
+    {
+        margin: 0;
+        padding: 0;
+        width: calc(50% - 10px);   
+        padding-bottom: 20px;     
+    }
+    .c-footer_feature a
+    {
+        width: 50%;
+    }
+    .c-footer_about
+    {
+        flex-direction: column;
+    }
+    .c-footer_links
+    {
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+    .c-footer_links-col
+    {
+        margin: 0;
+        padding: 0;
+        width: calc(50% - 10px);   
+        padding-bottom: 20px;     
+    }
+    .c-footer_form
+    {
+        width: 277px;
+    }
+
+}

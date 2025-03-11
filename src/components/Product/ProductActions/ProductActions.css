@@ -1,0 +1,50 @@
+.c-gallery_options
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 19px;
+    padding-top: 24px;
+}
+.c-gallery_options li
+{
+    margin-top: 12px;
+    position: relative;
+}
+.c-gallery_options li:first-child
+{
+    margin-top: 0;
+}
+.btn_option
+{
+    width: 51px;
+    height: 46px;
+    border-radius: 8px;
+    border: 1px solid #cacaca;
+    background-color: #fff;
+    color: #565656;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.btn_option::before
+{
+    position: absolute;
+    font-family: iconfont;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn_option:hover
+{
+    border-color: #9d9d9d;
+}
+.btn_option_wishlist::before
+{
+    content: "\e0d0";
+    font-size: 22px;
+}
+.btn_option_social::before
+{
+    content: "\e0b5";
+    font-size: 26px;
+}

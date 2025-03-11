@@ -1,0 +1,151 @@
+.product-price
+{
+    position: relative;
+    width: 100%;
+}
+.product-info
+{
+    display: flex;
+    right: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.information-store
+{
+    padding-right: 50px;
+}
+.information-store a, .information-category a
+{
+    color: #471871;
+    line-height: 1.1;
+    text-decoration: none;
+    border-bottom: 2px dotted #471871; 
+    padding-bottom: 1px; 
+}
+.price-info
+{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.product-info-price
+{
+    width: 170px;
+}
+.product-price_normal
+{
+    padding-bottom: 10px;
+}
+.product-price_normal span
+{
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+.product-price_discount
+{
+    min-width: 183.51;
+}
+
+.product-price_discount span
+{
+    font-size: 27px;
+    color: red;
+    font-weight: 700;
+}
+
+
+.Product-discount_shape
+{
+    background-color: #ef5662;
+    color: #fff;
+    /* padding: 0 63px; */
+    height: 62px;
+    border-radius: 0 19px 19px;
+    letter-spacing: .5px;
+    position: relative;
+}
+.Product-discount_shape span
+{
+    display: inline-block;
+    font-size: 26px;
+    color: #e4e4e4;
+    line-height: 2.3;
+    font-weight: 700;
+    width: 190px;
+    text-align: center;
+}
+
+
+
+
+.product-button
+{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.c-product_add
+{
+    padding-bottom: 45px;
+    position: relative;
+}
+.btn-add_card
+{
+    font-size: 18px;
+    background-color: #471871;
+    line-height: 1.222;
+    padding: 16px 98px 16px 18px;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #471871;
+    width: 100%;
+    display: block;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.btn-add_card::before
+{
+    content: "";
+    width: 90px;
+    height: 90px;
+    background: rgba(255, 255, 255, .2);
+    position: absolute;
+    left: -11px;
+    top: -17px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+.btn-add_card-text
+{
+    padding-left: 80px;
+    color: #fff;
+}
+.btn-add_card-text::before
+{
+    position: absolute;
+    font-family: 'iconfont';
+    content: "\e023";
+    left: 32px;
+    font-size: 27px;
+    top: 12px;
+}
+.btn-add_card-text::after
+{
+    position: absolute;
+    font-family: 'iconfont';
+    content: "\e083";
+    left: 14px;
+    font-size: 12px;
+    top: 20px;
+}
+.btn-add_card:hover::before
+{
+    width: 900px;
+    border-radius: 0;
+}

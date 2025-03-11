@@ -1,0 +1,143 @@
+@media (max-width: 1200px) 
+{
+    .qa-section
+    {
+        padding: 0 7px 0 7px;
+    }
+    .qa-section-questions
+    {
+        padding-top: 0;
+    }
+    .c-form_faq-row-btn
+    {
+        flex-direction: column;
+    }
+    .c-form_faq-col_submit {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .c-form_faq-col_agreement
+    {
+        width: 90%;
+        font-size: 12px;
+    }
+    .c-form_faq-col_agreement .c-checkbox {
+        top: 33px;
+    }
+    .c-faq_filter-title
+    {
+        padding: 1px 12px;
+    }
+    .c-faq_filter-items
+    {
+        display: flex;
+        font-size: 12px;
+        padding-top: 21px;
+    }
+    .c-faq_filter-items a
+    {
+        padding: 14px 2px;
+    }
+    .qa-section-title
+    {
+        font-size: 14px;
+    }
+
+
+
+    .c-faq_header
+    {
+        font-size: 30px;
+        left: -75px;
+        top: 0px;
+        width: unset;
+        padding-top: 0;
+        margin-right: 0;
+        padding-left: 22px;
+    }
+    .c-faq_header-question::before
+    {
+        display: none;
+    }
+    .c-faq_header p
+    {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 62px;
+        display: flex;
+        margin-top: 5px;
+    }
+    .c-faq_header p span
+    {
+        padding-left: 10px;
+    }
+
+    .c-faq_list > li {
+        margin-left: 0;
+        padding: 19px 9px 50px;
+    }
+    .c-faq_list > li::before, .c-faq_list > li::after 
+    {
+        display: none;
+    }
+   .c-faq_footer-content
+   {
+        display: flex;
+        flex-direction: column-reverse;
+   }
+
+   .faq_answer-row
+   {
+        flex-direction: column-reverse;
+   }
+
+   .faq_answer-col_rules
+   {
+        flex-basis: 100%;
+        max-width: 100%;
+        padding-left: 35px;
+        padding-top: 18px;
+    }
+    .c-faq_rules-headline 
+    {
+        font-size: 14px;
+    }
+    .c-faq_rules-list li span {
+
+        font-weight: 600;
+    }
+    .c-faq_rules-list
+    {
+        font-size: 12px;
+    }
+    .faq_answer-col_form {
+        flex-basis: 100%;
+        max-width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .faq_answer-col_form > span
+    {
+        margin-bottom: 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .c-faq_form-answer_row
+    {
+        margin-top: 15px;
+        margin-right: 0;
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .c-faq_form-answer_col-submit
+    {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .c-faq_form-answer_col-agreement {
+        flex-basis: 100%;
+        max-width: 100%;
+        font-size: 12px;
+        padding-top: 15px;
+    }
+}

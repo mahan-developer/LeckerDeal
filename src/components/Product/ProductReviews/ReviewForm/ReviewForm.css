@@ -1,0 +1,183 @@
+.c-comment_product-box
+{
+    background-color: #fff;
+    margin-top: 40px;
+}
+.c-comment_add-row
+{
+    display: flex;
+}
+.c-comment_add-col_form
+{
+    flex-basis: 42.8%;
+    max-width: 42.8%;
+    padding: 40px 40px 34px 48px;
+}
+.c-comment_add-col_form-title
+{
+    padding-bottom: 30px;
+}
+.c-form_comment-row
+{
+    display: flex;
+    margin-right: -7px;
+    margin-left: -7px;
+    margin-top: 25px;
+}
+.c-form_comment-row:first-child
+{
+    margin-top: 0;
+}
+.c-form_comment-col
+{
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.c-form_comment-title
+{
+    margin-bottom: 12px;
+    color: #565656;
+    font-size: 16px;
+    line-height: 1.375;
+    position: relative;
+
+}
+.c-form_comment-title_positive,.c-form_comment-title_negetive
+{
+    padding-left: 25px;
+}
+.c-form_comment-title_positive::before,.c-form_comment-title_negetive::before
+{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #56941e;
+    top: 5px;
+    left: 7px;
+    border-radius: 50%;
+}
+.c-form_comment-title_negetive::before
+{
+    background-color: #fb3449;
+}
+
+.c-form_comment-advantages
+{
+    position: relative;
+}
+
+.c-form_comment-advantages_add-btn
+{
+    position: absolute;
+    background: none;
+    border: none;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 48px;
+    cursor: pointer;
+}
+.c-form_comment-advantages_add-btn::before
+{
+    font-family: iconfont;
+    content: "\e005";
+    position: absolute;
+    font-size: 22px;
+    top: 11px;
+    left: 13px;
+    line-height: 1;
+    color: #878787;
+}
+.c-form_comment-dynamic_label
+{
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.c-dynamic_label
+{
+    padding: 8px 14px 8px 38px;
+    font-size: 12px;
+    background-color: #edf6f7;
+    color: #3a8c96;
+    margin-top: 12px;
+    line-height: 1.833;
+    border-radius: 8px;
+    position: relative;
+}
+.c-dynamic_label-remove
+{
+    width: 38px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+}
+.c-dynamic_label-remove::before
+{
+    font-family: iconfont;
+    content: "\e022";
+    font-size: 8px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn-submit_comment
+{
+    font-size: 16px;
+    background-color: #471871;
+    color: #fff;
+    padding: 14px 31px;
+    border-radius: 8px;
+    width: 100%;
+    z-index: 1000;
+    cursor: pointer;
+}
+.c-form_comment-col_agreement p
+{
+    font-size: 11px;
+    line-height: 2.18;
+    margin-top: 3px;
+}
+
+.c-comment_add-col_content
+{
+    position: relative;
+    max-width: 57.2%;
+    flex-basis: 57.2%;
+    border-left: 1px solid #ededed;
+    padding: 40px 50px;
+}
+
+.c-comment_add-col_content p
+{
+    margin-bottom: 12px;
+    color: #565656;
+    padding-left: 30px;
+    line-height: 2.36;
+}
+.c-comment_add-col_content p::before
+{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #471871;
+    margin-top: 12px;
+    left: 57px;
+    border-radius: 50%;
+}
+.c-comment_add-col_content p:first-of-type
+{
+    padding-top: 20px;
+}
+
+.c-comment_add-col_content-title
+{
+    padding-bottom: 30px;
+}

@@ -1,0 +1,157 @@
+@font-face
+{
+    font-family: "iconfont";
+    src:url(/src/assets/fonts/iconfont/iconfont.eot?#iefix) format("embedded-opentype"),
+    url(/src/assets/fonts/iconfont/iconfont.ttf) format("truetype"),
+    url(/src/assets/fonts/iconfont/iconfont.woff) format("woff"),
+    url(/src/assets/fonts/iconfont/iconfont.woff2) format("woff2"); 
+}
+@font-face
+{
+    font-family: "aFont_Solid";
+    src:url(/src/assets/fonts/aFont/fa-solid-900.ttf) format("truetype"),
+    url(/src/assets/fonts/aFont/fa-solid-900.woff2) format("woff2");
+
+}
+@font-face
+{
+    font-family: "aFont_Regular";
+    src:url(/src/assets/fonts/aFont/fa-regular-400.ttf) format("truetype"),
+    url(/src/assets/fonts/aFont/fa-regular-400.woff2) format("woff2");
+
+}
+
+.btn-primary
+{
+    line-height: 1.467;
+    background-color: #471871;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #471871;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.btn-primary::after
+{
+    width: 200%;
+    height: 200%;
+    content: "";
+    position: absolute;
+    background: rgba(255, 255, 255, .2);
+    right: -50%;
+    top: -50%;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+.btn-primary:hover::after
+{
+    opacity: 1;
+}
+
+
+*,*::before,*::after
+{
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+    color: #4a5f73;
+}
+
+html
+{
+    min-width: 1009px;
+}
+ul,p,h4,h3
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+input,button
+{
+    font-family: inherit;
+    font-size: inherit;
+}
+::placeholder
+{
+    color: #c6c6c6;
+}
+body
+{
+    background-color: #f5f5f5;
+    position: relative;
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    color: #515151;
+    padding-top: 115px;
+}
+.container
+{    
+    min-width: 1009px;
+    max-width: 1676px;
+    padding-left: 15px;
+    padding-right: 15px;    
+    margin-right: auto;
+    margin-left: auto ;
+    width: 100%;
+}
+
+span
+{
+    color:#4a5f73;
+}
+main
+{
+    height: auto;
+}
+
+
+.c-input 
+{
+    width: 100%;
+    line-height: 1.571;
+    padding: 11px 12px;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    letter-spacing: -.8px;
+    color: #717171;
+    background-color: #fff;
+}
+
+.c-textarea
+{
+    resize: none;
+    font-family: inherit;
+    font-size: 12px;
+    width: 100%;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 2.5;
+}
+
+
+
+
+
+@media (max-width: 1200px)
+{
+    html
+    {
+        min-width: unset;
+    }
+    .container
+    {    
+        min-width: unset;
+        max-width: unset;
+    }
+}

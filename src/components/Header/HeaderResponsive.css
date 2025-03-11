@@ -1,0 +1,288 @@
+@media (max-width: 1200px) {
+    
+  main
+  {
+    position: relative;
+    top: -40px;
+  }
+  .divider
+  {
+    display: none;
+  }
+  .c-header
+  {
+    height: 115px;
+  }
+  .c-header_logo
+  {
+    padding-right: 8px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    padding-right: 12px;
+  }
+  .c-header_logo-img
+  {    
+    background: url(/src/assets/images/Global/icon.png) no-repeat 100%;
+    background-size: auto 60%;
+  }
+  .c-header_action-Language
+  {
+    width: 64px;
+    height: 100%;
+    padding-left: 10px;
+    position: relative;
+  }
+  .c-header_action 
+  {
+    width: 200px;
+  }
+  .c-header_language-list::after
+  {
+    display: none;
+  }
+  .c-header_action-cart
+  {
+    width: 70px;
+  }
+  .c-header_btn-user
+  {
+    width: 40px;
+  }
+  .c-header_btn-user > span
+  {
+    display: none;
+  }
+  .c-header_btn-user::before
+  {
+    content: "\e003";
+    font-size: 20px;
+    left: 0;
+  }
+  .c-header_action-login
+  {
+    width: 40px;
+  }
+
+  .c-header_btn-cart
+  {
+    width: 70px;
+    padding: 0 5px;
+  }
+  .c-header_btn-cart span
+  {
+    display: none;
+  }
+
+  .c-header_search
+  {
+    width: 100%;
+    order: 4;
+    max-width: unset;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 20px;
+  }
+
+  .c-header_menu
+  {
+    width: 50px;
+    height: 100%;
+    display: flex;
+      
+    align-items: center;
+    cursor: pointer;
+  }
+  .c-header_menu::before
+  {
+    font-family: 'aFont_Solid';
+    content: "\f039";
+    color: #4a5f73;
+    font-size: 38px;
+    height: 100%;
+  }
+  .c-header_nav
+  {
+    display: none;
+  }
+
+
+
+  .drawer 
+  {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 100;
+  }
+
+
+  .drawer.open
+  {
+    transform: translateX(0);
+  }
+
+  .drawer-overlay
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+  }
+  
+
+  .drawer-header
+  {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .close-btn
+  {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .drawer-content
+  {
+    padding: 20px;
+  }
+
+
+
+  .menu-list
+  {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item
+  {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    line-height: 30px;
+  }
+  .menu-item::before
+  {
+    font-family: 'aFont_Solid';
+    content: "\2795";
+    color: #4a5f73;
+    font-size: 14px;
+    padding-right: 5px;
+  }
+  
+  .menu-item.active
+  {
+    background-color: #f0f0f0;    
+  }
+  .menu-item.active::before
+  {
+    content: "\2212";
+  }
+ 
+  .submenu-list
+  {
+    list-style: none;
+    padding: 0 15px;
+    margin: 0;
+  }
+  
+  .submenu-item
+  {
+    padding: 7px;
+    cursor: pointer;
+  }
+  .submenu-item::before
+  {
+    font-family: 'aFont_Solid';
+    content: "\2795";
+    color: #4a5f73;
+    font-size: 14px;
+    padding-right: 5px;
+  }
+  
+  .submenu-item.active::before
+  {
+    content: "\2212";
+  }
+
+  .subsubmenu-list
+  {
+    list-style: none;
+    padding: 0 30px;
+    margin: 0;
+  }
+  
+  .subsubmenu-item
+  {
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+
+  .drawer-content ul
+  {
+    transition: all 0.3s ease-in-out;
+  }
+
+
+
+  .c-header_language-dropdown
+  {
+    left: unset;
+    right: 0;
+    top: calc(100% + 20px);
+  }
+  .c-header_user-dropdown
+  {
+    width: 185px;
+    right: -88px;
+  }
+  .c-header_user-dropdown::after
+  {
+    right: 112px;
+  }
+
+  .c-header_basket-dropdown
+  {
+    width: 300px;
+    height: 358px;
+    right: -80px;
+  }
+  .c-basket_register-row
+  {
+    flex-direction: column-reverse;
+    margin-top: 10px;
+  }
+  .c-basket_col-totalprice
+  {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .c-basket_button
+  {
+    width: 100%;
+  }
+
+
+  .c-header_row
+  {
+    justify-content: end;
+  }
+}

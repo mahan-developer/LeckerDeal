@@ -1,0 +1,139 @@
+.product-left
+{
+    width: 65%;
+    background-color: #fdfdfd;
+    padding: 0 10px 0 30px;
+    position: relative;
+}
+.product-right
+{
+    background-color: white;
+    width: 35%;
+    display: flex;
+    position: relative;
+}
+
+.c-product_infoline
+{
+    display: flex;
+    height: 440px;
+}
+
+
+.product-title
+{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.product-Information
+{
+    width: 100%;
+    display: flex;
+    height: 540px;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0 12px 12px 0 rgba(181, 181, 181, .1);
+}
+
+
+
+:root {
+    --star-size: 20px;  
+}
+
+
+.c-product_headline
+{
+    border-bottom: 1px solid #f2f2f2;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 95px;
+}
+.c-product_headline span
+{
+    font-size: 12px;
+    line-height: 2.1;
+    color: #b5b5b5;
+    display: block;
+    margin-top: 5px;
+}
+
+.c-product_title
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: #a0a0a0;
+    margin-bottom: 17px;
+}
+.c-product_rating
+{
+    display: flex;
+    margin-right: 50px;   
+    color: #a0a0a0;
+    font-size: 13px;
+    line-height: 1.692;
+}
+.c-product_rating .c-stars
+{
+    margin-bottom: 5px;
+}
+.c-stars
+{
+    display: flex;
+    position: relative;
+    font-size: var(--star-size);
+    padding-left: 14px;
+}
+.c-profile_wishlist .c-stars
+{
+    margin-top: 10px;
+    width: 100px;
+}
+.c-stars_item::before
+{
+    width: var(--star-size);
+    height: var(--star-size);
+    display: inline-block;
+    background: url(../../assets/images/global/star.svg) no-repeat 50% 50%;
+    content: "";
+    background-size: 100%;
+}
+.c-stars_selected
+{
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+}
+.c-stars_selected .c-stars_item::before
+{
+    background-image: url(../../assets/images/global/star_fill.svg);
+}
+
+.product-rate_h3
+{
+    padding-right: 7px;
+    line-height: 2;
+}
+.product-Information-price
+{
+    padding-top: 50px;
+    width: 50%;
+}
+.product-Information-description
+{
+    padding-top: 50px;
+    width: 50%;
+    margin-right: 10px;
+}
+.product-Information-image
+{
+    padding-left: 35px;
+    padding-top: 12px;
+}
+
+.product-Information-actions
+{
+    padding-left: 35px;
+    padding-top: 12px;
+}

@@ -1,0 +1,44 @@
+@media (max-width: 1200px) 
+{
+    .c-topbanner_responsive
+    {
+        display: flex;
+        padding-top: 14px;
+        padding-bottom: 6px;
+        gap: 14px;
+        flex-direction: column;
+    }
+    .c-sliders_right, .c-sliders_right-topshop
+    {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .c-sliders_right-singleimg, .c-sliders_right-topshop-singleimg
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .c-sliders_right-singleimg a, .c-sliders_right-topshop-singleimg a
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .c-sliders_right-singleimg img, .c-sliders_right-topshop-singleimg img
+    {
+        width: 100%;
+        height: 90px;
+    }
+
+    .c-mainslider_left, .c-mainslider_right
+    {
+        width: 100%;
+    }
+    .c-mainslider_right
+    {
+        display: none;
+    }
+}

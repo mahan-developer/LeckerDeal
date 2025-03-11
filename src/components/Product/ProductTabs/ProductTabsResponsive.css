@@ -1,0 +1,32 @@
+@media (max-width: 1200px) 
+{
+  .tab-item-review
+  {
+    width: 115px;
+  }
+  .tab-item-question
+  {
+    width: 150px;  
+  }
+
+  .tab-item {    
+    padding: 18px 10px 18px 0px;
+    font-size: 12px;
+    text-align: right;
+  }
+  .tab-item-review::before
+  {
+    font-size: 14px;
+    left: 5px;
+    bottom: 13px;
+  }
+  .tab-item-question::before
+  {
+    font-size: 14px;
+    left: 5px;
+    bottom: 13px;
+  }
+  .tab-content {
+    padding: 20px 0px;
+  }
+}

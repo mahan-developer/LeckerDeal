@@ -1,0 +1,12 @@
+.product-page
+{
+    min-width: 1200px;
+}
+
+@media (max-width: 1200px) 
+{
+    .product-page
+    {
+        min-width: unset;
+    }
+}

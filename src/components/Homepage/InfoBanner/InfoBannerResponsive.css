@@ -1,0 +1,19 @@
+@media (max-width: 768px)
+{
+    .c-info_banner
+    {
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+    .c-info_banner-item
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding-bottom: 20px;    
+    }
+    .c-info_banner-item:not(:last-of-type)
+    {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,247 @@
+
+.c-header_nav
+{
+    background-color: #7d7d7d;
+}
+.c-header_nav-line
+{
+    background-color: #471871;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    position: absolute;
+}
+.c-topmenu
+{
+    margin-right: 0;
+    margin-left: 0;
+}
+.c-topmenu_list
+{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    position: relative;
+}
+.c-topmenu_list-categoris_items
+{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.c-topmenu_list-a
+{
+    color: #fff;
+    font-size: 13px;
+    padding: 8px 9px 7px;
+    line-height: 25px;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}
+.c-topmenu_list-location
+{
+    width: 155px;
+    display: flex;
+    
+}
+.c-topmenu_list-location .c-topmenu_list-a
+{
+    background-color: #616161;
+    display: flex;
+    justify-content: center;   
+    width: 155px;
+
+}
+
+
+.c-topmenu_list-location
+{
+    position: relative;
+}
+.c-topmenu_list-location::before
+{
+    position: absolute;
+    font-family: "aFont_Solid";
+    content: "\F3C5";
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 24px;
+    color: #94c773;
+    top: 5px;
+}
+
+
+.c-topmenu_list-location .c-topmenu_list-a:hover 
+{
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.15);
+}
+
+.c-topmenu_list-location .c-topmenu_list-a::before
+{
+    background-color: #94c773;
+    width: 100%;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+}
+.c-topmenu_list-location .c-topmenu_list-a:hover::before
+{
+    transform: scaleX(1);
+}
+
+.c-topmenu_list .c-topmenu_list-a:hover 
+{
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.15);   
+}
+
+.c-topmenu_sublist
+{
+    position: absolute;
+    background-color: #fff;  
+    width: 100%;
+    height: 344px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-18px);
+    right: 0;
+    left: 0;
+    top: 42px;
+    box-shadow: 0px 5px 5px rgba(112, 112, 112, 0.4);
+    border-radius: 0 0 14px 14px;
+    transition: none;
+}
+.c-topmenu_list-li.animate-menu .c-topmenu_sublist {
+    transition: opacity 0.5s ease, transform 0.5s ease; /* انیمیشن در باز شدن */
+}
+.c-topmenu_list-categoris_items > li.show-menu .c-topmenu_sublist
+{
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+    transform: translateY(0);
+}
+li.show-menu
+{
+    border-bottom: 2px solid #94c773;    
+}
+
+
+.c-topmenu_list-category
+{
+    position: relative;
+    width: fit-content;
+    padding-top: 10px;
+}
+
+.c-topmenu_sublist-menulist
+{
+    left: 0;
+    height: 100%;
+    width: calc(100% - 300px);
+}
+
+.c-topmenu_sublist-menulist > ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 30px;
+}
+.c-topmenu_sublist-li
+{
+    height: 25.846px;
+    max-width: 100%;
+    display: inline-flex;
+    width: 25%;
+}
+.c-topmenu_sublist-main
+{
+    display: grid;
+    height: auto;
+}
+.c-topmenu_sublist-main > a
+{
+    color: #471871;
+    font-size: 12px;
+    line-height: 1.9;
+}
+
+.c-topmenu_sublist-main > a:hover
+{
+    font-weight: 700;
+}
+.c-topmenu_sublist-main > a:hover::after
+{
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 12px;
+    width: calc(100% - 12px);
+    height: 1px;
+    background-color: #471871;
+}
+
+.c-topmenu_sublist-main > a::before
+{
+    font-family: aFont_Solid;
+    content: "\232A";
+    color: #471871;
+    margin-right: 4px;
+    font-size: 10px;
+}
+
+
+.c-topmenu_sublist-child
+{
+    padding-left: 35px;
+}
+.c-topmenu_sublist-child li
+{
+    list-style: circle;
+    padding-bottom: 5px;
+}
+.c-topmenu_sublist-child-a:hover
+{
+    border-bottom: 1px dashed #471871;
+}
+
+.c-topmenu_sublist-item
+{
+    color: #6a6a6a;
+    font-size: 12px;
+    padding-right: 20px;
+    font-weight: 100;
+}
+.c-topmenu_sublist-item a:hover
+{
+    font-weight: 700;
+}
+
+.c-topmenu_sublist-img
+{
+    position: relative;
+    width: 300px;
+    height: 100%;
+}
+.c-topmenu_sublist-img a img
+{
+    position: absolute;
+    width: 280px;
+    height: 100%;
+    max-height: 325px;
+    margin-top: 40px;
+    object-fit: contain;
+}

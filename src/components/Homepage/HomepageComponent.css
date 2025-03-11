@@ -1,0 +1,21 @@
+.c-slider
+{
+    margin-top: 14px;
+    height: auto ;
+}
+.c-sliders_row
+{
+    display: flex;    
+}
+.c-topbanner_responsive
+{
+    display: none;
+}
+.c-mainslider_left
+{
+    width: calc(100% - 272px);
+}
+.c-mainslider_right
+{
+    width: 272px;
+}

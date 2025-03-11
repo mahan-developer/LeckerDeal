@@ -1,0 +1,25 @@
+@media (max-width: 1200px) 
+{
+    .product-button
+    {
+        width: 200px;
+    }
+    .price-info
+    {
+        margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .product-info
+    {
+        padding-bottom: 25px;
+    }
+    .Product-discount_shape span
+    {
+        width: 120px;
+    }
+    .btn-add_card
+    {
+        padding: 16px 18px 16px 2px;
+    }
+}
